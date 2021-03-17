@@ -1,0 +1,9 @@
+*.sketch
+*.fig
+/design
+README-template.md
+style-guide.md
+READ.md
+*.xd
+.DS_Store
+.prettierignore
