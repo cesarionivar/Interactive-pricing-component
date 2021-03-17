@@ -1,0 +1,26 @@
+.header {
+    background-image: url('../images/pattern-circles.svg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 50%;
+    padding: 30px;
+
+    &__title {
+        color: $darkDesaturatedBlue;
+        font-size: 1.36rem;
+        text-align: center;
+        margin-top: 5.33rem;
+    }
+    
+    &__description {
+        margin-top: 1rem;
+        color: $grayishBlue;
+        text-align: center;
+    }
+    
+    &__description p {
+        margin: 0;
+        line-height: 2;
+    }
+    
+}
