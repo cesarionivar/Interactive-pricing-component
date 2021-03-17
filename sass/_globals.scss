@@ -13,7 +13,17 @@ html {
 
 body {
     min-height: 100vh;
+    background-color: $veryPaleBlue;
     background-image: url('../images/bg-pattern.svg');
     background-position: top left;
     background-repeat: no-repeat;
+    color: $grayishBlue;
+}
+
+$desktop-width: 768px;
+
+@mixin desktop {
+    @media (min-width: #{$desktop-width}) {
+      @content;
+    }
 }

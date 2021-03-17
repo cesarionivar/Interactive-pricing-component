@@ -5,9 +5,13 @@
     background-size: 50%;
     padding: 30px;
 
+    @include desktop {
+        background-size: 15%;
+    }
+
     &__title {
         color: $darkDesaturatedBlue;
-        font-size: 1.36rem;
+        font-size: 1.49rem;
         text-align: center;
         margin-top: 5.33rem;
     }
